@@ -1,0 +1,66 @@
+.date-name-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  grid-column-gap: 0px;
+}
+
+.day-name {
+  color: gray;
+  text-transform: uppercase;
+}
+
+.date-container {
+  display: grid;
+  width: 95vw;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 0px;
+  margin: 0 auto;
+}
+
+.date-current-month {
+  color: black;
+  font-weight: 700;
+}
+
+.date-other-month {
+  color: gray;
+}
+
+.date-cell {
+  display: inline-block;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 50px;
+  margin: 0;
+  padding: 10px 0px;
+  text-align: center;
+  user-select: none;
+}
+
+.today {
+  background: rgba(0, 0, 255, 0.3);
+  color: white;
+}
+
+.selected-day {
+  background: green;
+  color: white;
+}
+
+.event-day {
+  background: orange;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .date-cell {
+    font-size: 40px;
+    padding: 0;
+    width: 13.3vw;
+  }
+
+  .day-name {
+    font-size: 12px;
+  }
+}

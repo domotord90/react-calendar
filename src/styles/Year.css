@@ -1,0 +1,9 @@
+.year-text {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.year-container {
+  display: flex;
+  justify-content: center;
+}

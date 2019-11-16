@@ -1,0 +1,19 @@
+.month-text {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 5px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  user-select: none;
+}
+
+.month-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrows {
+  font-size: 20px;
+}
