@@ -20,9 +20,9 @@ const App = () => {
   const [year, setYear] = useState(
     convertUTCDateToLocalDate(new Date()).getFullYear()
   );
-  const originalDay = day;
-  const originalMonth = month;
-  const originalYear = year;
+  const originalDay = convertUTCDateToLocalDate(new Date()).getDate();
+  const originalMonth = convertUTCDateToLocalDate(new Date()).getMonth();
+  const originalYear = convertUTCDateToLocalDate(new Date()).getFullYear();
   const [selectedDate, setSelectedDate] = useState(null);
   const [eventList, setEventList] = useState([]);
   const [selectedEvent, setSelectedEvent] = useState(null);

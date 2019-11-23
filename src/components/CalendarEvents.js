@@ -174,7 +174,10 @@ const CalendarEvents = ({
           <p className="event-list-header">Event list:</p>
           {eventList.map(item => {
             return (
-              <div className="event-describer-container">
+              <div
+                key={`event: ${item.year}-${item.month + 1}-${item.day}`}
+                className="event-describer-container"
+              >
                 <div className="event-describer-item">
                   <label>Event name: </label>
                   <span>{item.eventName}</span>
