@@ -67,15 +67,16 @@
 
 .event-list-container {
   overflow: "auto";
-  height: 400px;
+  /* height: 400px; */
   background: rgba(0, 0, 0, 0.9);
-  width: 80vw;
+  width: 80%;
   margin: 10px auto 0 auto;
   border: 3px solid orange;
   color: orange;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .selected-event-container {
