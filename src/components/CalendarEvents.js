@@ -78,7 +78,7 @@ const CalendarEvents = ({
   };
 
   return (
-    <div>
+    <div className="calendar-events-container">
       {selectedDate !== null && (
         <div className="button-container">
           <button onClick={calendarEventClickHandler} className="event-button">
