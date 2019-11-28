@@ -4,7 +4,7 @@
 }
 
 .event-button {
-  font-size: 36px;
+  font-size: 2.25rem;
   background: green;
   color: white;
   border: none;
@@ -19,7 +19,7 @@
 .event-input-container {
   display: flex;
   flex-direction: column;
-  font-size: 26px;
+  font-size: 1.625rem;
   margin-left: 10px;
 }
 
@@ -29,12 +29,12 @@
 
 .event-text-input {
   margin: 0 0 0 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .event-time-input {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0 0 0 151px;
 }
 
@@ -47,10 +47,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 26px;
+  font-size: 1.625rem;
   margin: 10px 0 0 0;
   background: orange;
-  width: 50vw;
+  width: 50%;
   border-radius: 10px;
   border: 3px solid black;
 }
@@ -62,7 +62,7 @@
 
 .event-list-header {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .event-list-container {
