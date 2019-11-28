@@ -205,7 +205,7 @@ const Dates = ({
   };
 
   return (
-    <div>
+    <div className="date-main-container">
       <div className="date-name-container">
         <span className="day-name">Monday</span>
         <span className="day-name">Tuesday</span>

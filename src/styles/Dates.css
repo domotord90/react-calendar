@@ -1,8 +1,16 @@
+.date-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .date-name-container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   justify-items: center;
   grid-column-gap: 0px;
+  width: 95%;
 }
 
 .day-name {
@@ -17,7 +25,6 @@
   width: 95%;
   grid-template-columns: repeat(7, 1fr);
   column-gap: 0px;
-  margin: 0 auto;
 }
 
 .date-current-month {
@@ -38,7 +45,7 @@
   padding: 10px 0px;
   text-align: center;
   user-select: none;
-  width: fit-content;
+  width: 100%;
 }
 
 .today {
@@ -60,7 +67,7 @@
   .date-cell {
     font-size: 2.5rem;
     padding: 0;
-    width: fit-content;
+    width: 100%;
   }
 
   .day-name {

@@ -4,6 +4,8 @@ import Month from "./Month";
 import Dates from "./Dates";
 import CalendarEvents from "./CalendarEvents";
 
+import "../styles/App.css";
+
 const App = () => {
   const convertUTCDateToLocalDate = date => {
     const newDate = new Date(
@@ -32,7 +34,7 @@ const App = () => {
   const [timeValue, setTimeValue] = useState("12:00pm");
 
   return (
-    <div>
+    <div className="app-main-container">
       <Year year={year} />
       <Month
         month={month}
